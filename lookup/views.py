@@ -1,3 +1,5 @@
+#this is a comment to the views.py file
+
 from django.shortcuts import render
 
 
@@ -9,5 +11,5 @@ def home(request):
 def about(request):
 	return render(request, 'about.html', {})
 
-	
+
 	
